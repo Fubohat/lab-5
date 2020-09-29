@@ -10,5 +10,7 @@ int main() {
 	cin >> B;
 	cout << "C=";
 	cin >> C;
+	cout << "длина AC=" << abs(A - C) << endl;;
+	cout << "длина BC=" << abs(B - C) << endl;
 	cout << "ответ=" << abs(A-C) + abs(B - C);
 }
