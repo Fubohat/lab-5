@@ -2,7 +2,6 @@
 #include <cmath>
 using namespace std;
 int main() {
-	setlocale(LC_ALL, "Russian");
 	int  x1, x2, y1, y2, x3, y3;
 	float p, a, b, c;
 	cout << "x1=";
